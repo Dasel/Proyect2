@@ -30,7 +30,7 @@ class HomeController < ApplicationController
 	      config.consumer_secret     = Rails.application.secrets.twitter_api_secret
 	      config.access_token        = current_user.token
 	      config.access_token_secret = current_user.secret
-    end 
-  end
+	    end 
+	  end
 end
 
