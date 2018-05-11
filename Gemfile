@@ -57,3 +57,5 @@ gem "omniauth"
 gem "omniauth-twitter"
 gem 'twitter', '~> 5.13.0'
 gem 'bootstrap-sass', '~> 3.3.7'
+gem 'pg', '~> 0.18.4'
+gem 'rails_12factor', '~> 0.0.3'
